@@ -1,2 +1,59 @@
-# yamdb_final
-![Django-app workflow](https://github.com/Listener430/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+# distributed_config
+
+Пример входящего JSON:
+{   "system_name" : "testik5",
+    "value_names": [
+      {"name":"22"},
+      
+      {"name":"15"}
+    ]
+
+}
+
+Вывод (для тестирования):
+{
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "value_names": [
+                {
+                    "name": "22"
+                },
+                {
+                    "name": "15"
+                }
+            ],
+            "system_name": "testik5",
+            "version": 1,
+            "in_use_indicator": "inactive"
+        },
+        {
+            "value_names": [
+                {
+                    "name": "22"
+                },
+                {
+                    "name": "15"
+                }
+            ],
+            "system_name": "testik5",
+            "version": 2,
+            "in_use_indicator": "inactive"
+        },
+        {
+            "value_names": [
+                {
+                    "name": "22"
+                },
+                {
+                    "name": "15"
+                }
+            ],
+            "system_name": "testik5",
+            "version": 3,
+            "in_use_indicator": "active"
+        }
+    ]
+}
