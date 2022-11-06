@@ -1,6 +1,8 @@
 # distributed_config
 
 Пример входящего JSON:
+```json
+
 {   "system_name" : "testik5",
     "value_names": [
       {"name":"22"},
@@ -10,7 +12,11 @@
 
 }
 
+```
+
 Вывод (для тестирования):
+```json
+
 {
     "count": 3,
     "next": null,
@@ -57,3 +63,5 @@
         }
     ]
 }
+
+```
